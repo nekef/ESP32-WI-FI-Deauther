@@ -112,7 +112,7 @@ extern int deauth_type;
 #include <WebServer.h>
 #include <esp_wifi.h>
 
-#define LED_PIN 2
+#define LED_PIN LED_BUILTIN
 #define CHANNEL_MAX 13
 
 deauth_frame_t deauth_frame;
