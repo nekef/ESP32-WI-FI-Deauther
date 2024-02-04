@@ -78,7 +78,7 @@ extern int deauth_type;
 
 #define AP_SSID "ESP32-Deauther"
 #define AP_PASS "esp32wroom32"
-#define LED 2
+#define LED LED_BUILTIN
 #define SERIAL_DEBUG
 #define CHANNEL_MAX 13
 #define NUM_FRAMES_PER_DEAUTH 16
